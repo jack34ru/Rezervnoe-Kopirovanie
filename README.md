@@ -82,7 +82,7 @@ pg_restore -U postgres -h localhost -d mydb_restored -v /backup/mydb.backup
 ```
 [mysqld]
 server-id=1
-log_bin=mysql-bin
+log_bin=mysql-bin -- включение бинарных логов
 ```
 2. Сделать полное резервное копирование базы:
 ```
